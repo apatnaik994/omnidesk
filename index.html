@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Free Online Developer Tools: AES Crypto, Image Compressor, JSON, Cron & More</title>
+    <meta name="description" content="Rank #1 free online developer tools suite. Instantly access AES encryption, image compressor, JSON beautifier, cron generator, base64 to PDF, date calculator, hardware tester, regex, diff checker & HTML compiler without installation.">
+    <meta name="keywords" content="free online developer tools, AES encryption online, online image compressor, JSON beautifier and formatter, cron expression generator, base64 to PDF converter, date time calculator, hardware tester, mouse test, keyboard test, mic test, camera test, internet speed test, alarm and reminder online, password generator, hash calculator, regex tester, text diff checker, HTML live compiler">
+    <meta name="author" content="OmniDesk">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://yourwebsite.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/">
+    <meta property="og:title" content="Ultimate Free Developer Utilities Suite | OmniDesk">
+    <meta property="og:description" content="All-in-one web application for developers. Features include AES Encryption, JSON Beautifier, Image Compressor, HTML Compiler, Regex Tester, Diff Checker, Cron Generator, Hardware Tester, and Base64 to PDF.">
+    <meta property="og:image" content="https://yourwebsite.com/assets/og-image.jpg">
+    <meta property="og:site_name" content="OmniDesk">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://yourwebsite.com/">
+    <meta name="twitter:title" content="Ultimate Free Developer Utilities Suite | OmniDesk">
+    <meta name="twitter:description" content="All-in-one web application for developers. Features include AES Encryption, JSON Beautifier, Image Compressor, HTML Compiler, Regex Tester, Diff Checker, Cron Generator, Hardware Tester, and Base64 to PDF.">
+    <meta name="twitter:image" content="https://yourwebsite.com/assets/og-image.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "OmniDesk Developer Tools",
+      "url": "https://yourwebsite.com/",
+      "description": "A comprehensive suite of free online developer utilities. Features include AES encryption/decryption, JSON formatting/minifying, HTML compiling, Regex testing, Image compression, Cron generation, Base64 to PDF conversion, Date/Time calculation, Hardware testing (Mic/Camera/Keyboard/Mouse), Alarms, Password generation, and Diff checking.",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "WebBrowser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "AES Encryption and Decryption",
+        "Image Compressor for Portals",
+        "JSON Beautifier and Validator",
+        "Cron Generator and Validator",
+        "Base64 to PDF Converter",
+        "Date and Time Calculator",
+        "Hardware Tester (Mouse, Keyboard, Camera, Mic, Speaker, Speed Test)",
+        "Alarms and Reminders",
+        "Password and Hash Generator",
+        "Regex Tester",
+        "Diff Checker",
+        "HTML Live Compiler"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "akhilkumar"
+      }
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 3D Background Container -->
+    <div id="vanta-bg"></div>
+
+    <div class="app-container">
+        <!-- Sidebar Overlay (Mobile) -->
+        <div id="sidebar-overlay" class="sidebar-overlay"></div>
+        
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar glass-panel" id="sidebar">
+            <div class="brand">
+                <i class="fa-solid fa-layer-group logo-icon"></i>
+                <h2>OmniDesk</h2>
+            </div>
+            <ul class="nav-links">
+                <li class="active" data-target="aes-section">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>AES Crypto</span>
+                </li>
+                <li data-target="compressor-section">
+                    <i class="fa-solid fa-compress"></i>
+                    <span>Image Compressor</span>
+                </li>
+                <li data-target="json-section">
+                    <i class="fa-solid fa-code"></i>
+                    <span>JSON Beautifier</span>
+                </li>
+                <li data-target="cron-section">
+                    <i class="fa-solid fa-clock"></i>
+                    <span>Cron Generator</span>
+                </li>
+                <li data-target="pdf-section">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <span>Base64 to PDF</span>
+                </li>
+                <li data-target="datetime-section">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <span>Date/Time Calc</span>
+                </li>
+                <li data-target="hardware-section">
+                    <i class="fa-solid fa-microchip"></i>
+                    <span>Hardware Tester</span>
+                </li>
+                <li data-target="alarm-section">
+                    <i class="fa-solid fa-bell"></i>
+                    <span>Alarms & Reminders</span>
+                </li>
+                <li data-target="pass-hash-section">
+                    <i class="fa-solid fa-key"></i>
+                    <span>Password & Hash</span>
+                </li>
+                <li data-target="regex-section">
+                    <i class="fa-solid fa-asterisk"></i>
+                    <span>Regex Tester</span>
+                </li>
+                <li data-target="diff-section">
+                    <i class="fa-solid fa-code-compare"></i>
+                    <span>Diff Checker</span>
+                </li>
+                <li data-target="html-section">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML Compiler</span>
+                </li>
+            </ul>
+            <div class="user-profile">
+                <div class="avatar">
+                    <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <div class="user-info">
+                    <span class="name">Employee</span>
+                    <span class="role">Workspace</span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="glass-panel top-header">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <button id="mobile-menu-btn" class="icon-btn mobile-only"><i class="fa-solid fa-bars"></i></button>
+                    <h1 id="current-tool-title">AES Encryption / Decryption</h1>
+                </div>
+                <div class="header-actions">
+                    <button class="icon-btn"><i class="fa-solid fa-bell"></i></button>
+                    <button class="icon-btn"><i class="fa-solid fa-gear"></i></button>
+                </div>
+            </header>
+
+            <!-- Tool Sections -->
+            <div class="tool-container glass-panel">
+                
+                <!-- AES Section -->
+                <section id="aes-section" class="tool-section active-section">
+                    <div class="tool-header">
+                        <h2>Secure your sensitive data</h2>
+                        <p>Military-grade AES encryption for your day-to-day operations.</p>
+                    </div>
+                    <div class="aes-grid">
+                        <div class="options-group" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px;">
+                            <div class="input-group">
+                                <label for="aes-secret-key">Secret Key</label>
+                                <input type="password" id="aes-secret-key" placeholder="Enter Secret Key...">
+                            </div>
+                            <div class="input-group">
+                                <label for="aes-key-size">Key Size in Bits</label>
+                                <select id="aes-key-size" class="custom-select">
+                                    <option value="128">128</option>
+                                    <option value="192">192</option>
+                                    <option value="256" selected>256</option>
+                                </select>
+                            </div>
+                            <div class="input-group">
+                                <label for="aes-iv">IV (Optional)</label>
+                                <input type="text" id="aes-iv" placeholder="Enter IV Used During Encryption...">
+                            </div>
+                            <div class="input-group">
+                                <label for="aes-mode">Cipher Mode</label>
+                                <select id="aes-mode" class="custom-select">
+                                    <option value="CBC" selected>CBC</option>
+                                    <option value="ECB">ECB</option>
+                                    <option value="CFB">CFB</option>
+                                    <option value="OFB">OFB</option>
+                                    <option value="CTR">CTR</option>
+                                    <option value="GCM">GCM</option>
+                                </select>
+                            </div>
+                            <div class="input-group">
+                                <label for="aes-padding">Padding</label>
+                                <select id="aes-padding" class="custom-select">
+                                    <option value="Pkcs7" selected>Pkcs7</option>
+                                    <option value="ZeroPadding">ZeroPadding</option>
+                                    <option value="NoPadding">NoPadding</option>
+                                    <option value="Iso97971">Iso97971</option>
+                                    <option value="AnsiX923">AnsiX923</option>
+                                    <option value="Iso10126">Iso10126</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="text-areas">
+                            <div class="area-col">
+                                <label for="aes-input">Input Text</label>
+                                <textarea id="aes-input" placeholder="Enter text to encrypt or decrypt..."></textarea>
+                            </div>
+                            <div class="area-col action-col">
+                                <button id="btn-encrypt" class="primary-btn"><i class="fa-solid fa-lock"></i> Encrypt</button>
+                                <button id="btn-decrypt" class="secondary-btn"><i class="fa-solid fa-lock-open"></i> Decrypt</button>
+                            </div>
+                            <div class="area-col">
+                                <label for="aes-output">Output Result</label>
+                                <textarea id="aes-output" readonly placeholder="Result will appear here..."></textarea>
+                                <button id="btn-copy-aes" class="icon-btn copy-btn"><i class="fa-regular fa-copy"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Image Compressor Section -->
+                <section id="compressor-section" class="tool-section">
+                    <div class="tool-header">
+                        <h2>Optimize Images for Portals</h2>
+                        <p>Compress and resize images to meet strict size limits for government & job portals.</p>
+                    </div>
+                    <div class="compressor-layout">
+                        <div class="upload-area" id="drop-zone">
+                            <input type="file" id="image-input" accept="image/*" hidden>
+                            <i class="fa-solid fa-cloud-arrow-up upload-icon"></i>
+                            <h4>Drag & Drop your image here</h4>
+                            <p>or</p>
+                            <button id="btn-browse" class="secondary-btn">Browse Files</button>
+                        </div>
+                        
+                        <div class="compression-controls" style="display: none;" id="compress-controls">
+                            <div class="preview-container">
+                                <div class="preview-box">
+                                    <h5>Original <span id="original-size" class="badge">0 KB</span></h5>
+                                    <img id="original-preview" src="" alt="Original">
+                                </div>
+                                <div class="preview-box">
+                                    <h5>Compressed <span id="compressed-size" class="badge success">0 KB</span></h5>
+                                    <img id="compressed-preview" src="" alt="Compressed">
+                                </div>
+                            </div>
+                            
+                            <div class="sliders advanced-controls" style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+                                <div class="input-group">
+                                    <label for="quality-slider">Quality: <span id="quality-value">80%</span></label>
+                                    <input type="range" id="quality-slider" min="0.1" max="1" step="0.05" value="0.8">
+                                </div>
+                                <div class="input-group">
+                                    <label for="width-slider">Max Width (px): <span id="width-value">800</span></label>
+                                    <input type="range" id="width-slider" min="50" max="3000" step="10" value="800">
+                                </div>
+                                <div class="input-group">
+                                    <label for="format-select">Output Format</label>
+                                    <select id="format-select" class="custom-select">
+                                        <option value="image/jpeg" selected>JPEG (Best for photos)</option>
+                                        <option value="image/png">PNG (Best for logos/text)</option>
+                                        <option value="image/webp">WebP (Smallest file size)</option>
+                                    </select>
+                                </div>
+                                <div class="input-group">
+                                    <label for="target-size">Target Size (KB) [Optional]</label>
+                                    <div style="display: flex; gap: 10px;">
+                                        <input type="number" id="target-size" placeholder="e.g. 50" min="1">
+                                        <button id="btn-auto-compress" class="secondary-btn" style="white-space: nowrap;">Auto Fit</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="action-buttons">
+                                <button id="btn-compress-server" class="primary-btn"><i class="fa-solid fa-server"></i> Process via PHP</button>
+                                <a id="btn-download" class="secondary-btn" download="compressed.jpg"><i class="fa-solid fa-download"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- JSON Beautifier Section -->
+                <section id="json-section" class="tool-section">
+                    <div class="tool-header">
+                        <h2>JSON Formatter & Validator</h2>
+                        <p>Clean up, format, and validate complex JSON payloads.</p>
+                    </div>
+                    <div class="json-layout">
+                        <div class="area-col">
+                            <label>Raw JSON</label>
+                            <textarea id="json-input" placeholder='{"key": "value"}'></textarea>
+                        </div>
+                        <div class="json-actions">
+                            <button id="btn-format-json" class="primary-btn"><i class="fa-solid fa-wand-magic-sparkles"></i> Format</button>
+                            <button id="btn-minify-json" class="secondary-btn"><i class="fa-solid fa-minimize"></i> Minify</button>
+                            <button id="btn-clear-json" class="danger-btn"><i class="fa-solid fa-trash-can"></i> Clear</button>
+                        </div>
+                        <div class="area-col">
+                            <label>Formatted Output</label>
+                            <div class="output-wrapper">
+                                <textarea id="json-output" readonly placeholder="Formatted JSON will appear here..."></textarea>
+                                <span id="json-status" class="status-badge"></span>
+                                <button id="btn-copy-json" class="icon-btn copy-btn"><i class="fa-regular fa-copy"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Cron Generator Section -->
+                <section id="cron-section" class="tool-section">
+                    <div class="tool-header">
+                        <h2>Cron Generator & Validator</h2>
+                        <p>Build cron expressions and validate them instantly.</p>
+                    </div>
+                    <div class="cron-layout" style="display: flex; flex-direction: column; gap: 20px; height: calc(100% - 80px); overflow-y: auto;">
+                        
+                        <div class="glass-panel" style="padding: 20px; flex-shrink: 0;">
+                            <h4>Validate & Translate Cron</h4>
+                            <div class="input-group" style="margin-top: 15px;">
+                                <label for="cron-input-val">Cron Expression</label>
+                                <div style="display: flex; gap: 10px;">
+                                    <input type="text" id="cron-input-val" placeholder="* * * * *" value="* * * * *">
+                                </div>
+                            </div>
+                            <div class="cron-result" style="margin-top: 15px; padding: 15px; background: rgba(0,0,0,0.2); border-radius: 8px;">
+                                <strong id="cron-human-readable">Every minute</strong>
+                            </div>
+                        </div>
+
+                        <div class="glass-panel" style="padding: 20px; flex-shrink: 0;">
+                            <h4>Generate Cron</h4>
+                            <div class="cron-generator-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 15px;">
+                                <div class="input-group">
+                                    <label>Minute</label>
+                                    <input type="text" id="cron-gen-min" value="*" class="cron-gen-input">
+                                </div>
+                                <div class="input-group">
+                                    <label>Hour</label>
+                                    <input type="text" id="cron-gen-hour" value="*" class="cron-gen-input">
+                                </div>
+                                <div class="input-group">
+                                    <label>Day of Month</label>
+                                    <input type="text" id="cron-gen-dom" value="*" class="cron-gen-input">
+                                </div>
+                                <div class="input-group">
+                                    <label>Month</label>
+                                    <input type="text" id="cron-gen-mon" value="*" class="cron-gen-input">
+                                </div>
+                                <div class="input-group">
+                                    <label>Day of Week</label>
+                                    <input type="text" id="cron-gen-dow" value="*" class="cron-gen-input">
+                                </div>
+                            </div>
+                            <div style="margin-top: 20px; display: flex; gap: 10px; align-items: flex-end;">
+                                <div class="input-group" style="flex-grow: 1;">
+                                    <label>Generated Expression</label>
+                                    <input type="text" id="cron-generated-output" readonly value="* * * * *">
+                                </div>
+                                <button type="button" id="btn-copy-cron" class="secondary-btn"><i class="fa-regular fa-copy"></i> Copy</button>
+                            </div>
+                            
+                            <div style="margin-top: 20px;">
+                                <h5>Common Presets</h5>
+                                <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
+                                    <button type="button" class="secondary-btn preset-cron" data-cron="* * * * *">Every Minute</button>
+                                    <button type="button" class="secondary-btn preset-cron" data-cron="*/2 * * * *">Every 2 Minutes</button>
+                                    <button type="button" class="secondary-btn preset-cron" data-cron="0 * * * *">Every One Hour</button>
+                                    <button type="button" class="secondary-btn preset-cron" data-cron="0 5 * * *">Everyday at 5AM</button>
+                                    <button type="button" class="secondary-btn preset-cron" data-cron="0 0 * * *">Midnight</button>
+                                    <button type="button" class="secondary-btn preset-cron" data-cron="0 0 * * 0">Every Sunday</button>
+                                    <button type="button" class="secondary-btn preset-cron" data-cron="0 9 * * 1-5">Weekdays 9AM</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Base64 to PDF Section -->
+                <section id="pdf-section" class="tool-section">
+                    <div class="tool-header">
+                        <h2>PDF & Base64 Converter</h2>
+                        <p>Upload a PDF to get its Base64 string, or paste a Base64 string to view and download the PDF.</p>
+                    </div>
+                    <div class="pdf-layout" style="display: flex; gap: 20px; height: calc(100% - 80px);">
+                        
+                        <div class="glass-panel" style="flex: 1; padding: 20px; display: flex; flex-direction: column;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                                <label style="margin: 0;">Base64 String</label>
+                                <div>
+                                    <input type="file" id="pdf-file-input" accept="application/pdf" hidden>
+                                    <button type="button" id="btn-upload-pdf" class="secondary-btn" style="padding: 0.4rem 0.8rem; font-size: 0.9rem;"><i class="fa-solid fa-upload"></i> Upload PDF</button>
+                                </div>
+                            </div>
+                            <textarea id="pdf-base64-input" placeholder="Paste Base64 string here or upload a PDF above..." style="flex-grow: 1; margin-bottom: 15px; resize: none;"></textarea>
+                            <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: space-between;">
+                                <div style="display: flex; gap: 10px;">
+                                    <button type="button" id="btn-view-pdf" class="primary-btn"><i class="fa-solid fa-eye"></i> View</button>
+                                    <button type="button" id="btn-download-pdf" class="secondary-btn"><i class="fa-solid fa-download"></i> Download</button>
+                                </div>
+                                <div style="display: flex; gap: 10px;">
+                                    <button type="button" id="btn-copy-pdf-b64" class="secondary-btn"><i class="fa-regular fa-copy"></i> Copy</button>
+                                    <button type="button" id="btn-clear-pdf" class="danger-btn"><i class="fa-solid fa-trash-can"></i> Clear</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="glass-panel" style="flex: 1; padding: 20px; display: flex; flex-direction: column;">
+                            <label>PDF Viewer</label>
+                            <div id="pdf-viewer-container" style="flex-grow: 1; background: rgba(0,0,0,0.2); border-radius: 8px; border: 1px solid var(--glass-border); overflow: hidden; display: flex; align-items: center; justify-content: center;">
+                                <span style="color: var(--text-muted);">PDF will appear here</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Date & Time Calculator Section -->
+                <section id="datetime-section" class="tool-section">
+                    <div class="tool-header">
+                        <h2>Date & Time Calculator</h2>
+                        <p>Calculate differences between dates, or add/subtract time from a specific date.</p>
+                    </div>
+                    <div class="datetime-layout" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; height: calc(100% - 80px); overflow-y: auto; align-items: start; padding-right: 5px;">
+                        
+                        <!-- Add / Subtract Time -->
+                        <div class="glass-panel" style="padding: 25px; flex-shrink: 0; position: relative;">
+                            <h4 style="display: flex; align-items: center; gap: 10px; margin-bottom: 20px;"><i class="fa-solid fa-calendar-plus" style="color: var(--primary);"></i> Add / Subtract Time</h4>
+                            
+                            <div style="display: flex; flex-direction: column; gap: 15px;">
+                                <div class="input-group">
+                                    <label>Start Date & Time</label>
+                                    <input type="datetime-local" id="dt-start-input" step="1" style="width: 100%;">
+                                </div>
+                                <div class="input-group">
+                                    <label>Operation</label>
+                                    <select id="dt-operation" class="custom-select" style="width: 100%;">
+                                        <option value="add">Add (+)</option>
+                                        <option value="subtract">Subtract (-)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <label style="display: block; margin-top: 20px; margin-bottom: 10px; font-size: 0.9rem; color: var(--text-muted);">Time Units</label>
+                            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 20px;">
+                                <div class="input-group" style="margin-bottom:0;"><label style="font-size:0.8rem; margin-bottom:0.2rem;">Years</label><input type="number" id="dt-years" value="0" min="0" style="padding:0.5rem; width: 100%;"></div>
+                                <div class="input-group" style="margin-bottom:0;"><label style="font-size:0.8rem; margin-bottom:0.2rem;">Months</label><input type="number" id="dt-months" value="0" min="0" style="padding:0.5rem; width: 100%;"></div>
+                                <div class="input-group" style="margin-bottom:0;"><label style="font-size:0.8rem; margin-bottom:0.2rem;">Days</label><input type="number" id="dt-days" value="0" min="0" style="padding:0.5rem; width: 100%;"></div>
+                                <div class="input-group" style="margin-bottom:0;"><label style="font-size:0.8rem; margin-bottom:0.2rem;">Hours</label><input type="number" id="dt-hours" value="0" min="0" style="padding:0.5rem; width: 100%;"></div>
+                                <div class="input-group" style="margin-bottom:0;"><label style="font-size:0.8rem; margin-bottom:0.2rem;">Minutes</label><input type="number" id="dt-minutes" value="0" min="0" style="padding:0.5rem; width: 100%;"></div>
+                                <div class="input-group" style="margin-bottom:0;"><label style="font-size:0.8rem; margin-bottom:0.2rem;">Secs</label><input type="number" id="dt-seconds" value="0" min="0" style="padding:0.5rem; width: 100%;"></div>
+                            </div>
+                            
+                            <button type="button" id="btn-calc-addsub" class="primary-btn" style="width: 100%; justify-content: center;"><i class="fa-solid fa-calculator"></i> Calculate</button>
+                            
+                            <div class="dt-result" style="margin-top: 15px; padding: 15px; background: rgba(0,0,0,0.2); border-radius: 8px; border-left: 4px solid var(--primary);">
+                                <label style="margin: 0; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Result Date & Time</label>
+                                <strong id="dt-addsub-result" style="font-size: 1.1rem; color: var(--primary); display: block; margin-top: 5px;">-</strong>
+                            </div>
+                        </div>
+
+                        <!-- Date Difference -->
+                        <div class="glass-panel" style="padding: 25px; flex-shrink: 0;">
+                            <h4 style="display: flex; align-items: center; gap: 10px; margin-bottom: 20px;"><i class="fa-solid fa-code-compare" style="color: var(--secondary);"></i> Date Difference</h4>
+                            
+                            <div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 20px;">
+                                <div class="input-group">
+                                    <label>From Date & Time</label>
+                                    <input type="datetime-local" id="dt-diff-from" step="1">
+                                </div>
+                                <div class="input-group">
+                                    <label>To Date & Time</label>
+                                    <input type="datetime-local" id="dt-diff-to" step="1">
+                                </div>
+                            </div>
+                            
+                            <button type="button" id="btn-calc-diff" class="primary-btn" style="width: 100%; justify-content: center; background: var(--secondary); color: #000; font-weight: 600;"><i class="fa-solid fa-bolt"></i> Calculate Difference</button>
+                            
+                            <div class="dt-result" style="margin-top: 15px; padding: 15px; background: rgba(0,0,0,0.2); border-radius: 8px; border-left: 4px solid var(--secondary);">
+                                <label style="margin: 0; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Difference</label>
+                                <strong id="dt-diff-result" style="font-size: 1.1rem; color: var(--secondary); display: block; margin-top: 5px; line-height: 1.4;">-</strong>
+                            </div>
+                        </div>
+
+                        <!-- Time Difference Only -->
+                        <div class="glass-panel" style="padding: 25px; flex-shrink: 0;">
+                            <h4 style="display: flex; align-items: center; gap: 10px; margin-bottom: 20px;"><i class="fa-solid fa-clock" style="color: var(--success);"></i> Time Difference</h4>
+                            
+                            <div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 20px;">
+                                <div class="input-group">
+                                    <label>From Time</label>
+                                    <input type="time" id="time-only-from" step="1">
+                                </div>
+                                <div class="input-group">
+                                    <label>To Time</label>
+                                    <input type="time" id="time-only-to" step="1">
+                                </div>
+                            </div>
+                            
+                            <button type="button" id="btn-calc-time-only" class="primary-btn" style="width: 100%; justify-content: center; background: var(--success);"><i class="fa-solid fa-stopwatch"></i> Calculate Time</button>
+                            
+                            <div class="dt-result" style="margin-top: 15px; padding: 15px; background: rgba(0,0,0,0.2); border-radius: 8px; border-left: 4px solid var(--success);">
+                                <label style="margin: 0; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px;">Difference</label>
+                                <strong id="time-only-result" style="font-size: 1.1rem; color: var(--success); display: block; margin-top: 5px; line-height: 1.4;">-</strong>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Hardware Tester Section -->
+                <section id="hardware-section" class="tool-section">
+                    <div class="tool-header">
+                        <h2>Hardware Tester</h2>
+                        <p>Test your mouse, keyboard, camera, microphone, speakers, and internet speed.</p>
+                    </div>
+                    <div class="hardware-layout" style="display: flex; gap: 20px; height: calc(100% - 80px); overflow-y: auto; flex-direction: column;">
+                        
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                            <!-- Mouse Test -->
+                            <div class="glass-panel" style="padding: 20px;">
+                                <h4><i class="fa-solid fa-computer-mouse"></i> Mouse Test</h4>
+                                <div id="mouse-test-area" style="margin-top: 15px; padding: 30px; border: 2px dashed var(--glass-border); border-radius: 8px; text-align: center; cursor: crosshair; user-select: none;">
+                                    Click here to test!
+                                    <div style="display: flex; justify-content: center; gap: 10px; margin-top: 15px;">
+                                        <span id="mouse-left" class="badge">Left</span>
+                                        <span id="mouse-middle" class="badge">Middle</span>
+                                        <span id="mouse-right" class="badge">Right</span>
+                                        <span id="mouse-double" class="badge">Double</span>
+                                    </div>
+                                    <p id="mouse-log" style="margin-top: 15px; font-size: 0.9rem; color: var(--text-muted);">Waiting for click...</p>
+                                    <div style="margin-top: 15px; display: flex; justify-content: space-around; font-size: 0.9rem; color: var(--text-main);">
+                                        <span>Single Clicks: <strong id="mouse-single-count">0</strong></span>
+                                        <span>Double Clicks: <strong id="mouse-double-count">0</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Keyboard Test -->
+                            <div class="glass-panel" style="padding: 20px;">
+                                <h4><i class="fa-solid fa-keyboard"></i> Keyboard Test</h4>
+                                <div style="margin-top: 15px;">
+                                    <input type="text" id="keyboard-test-input" placeholder="Type here to test keys..." autocomplete="off">
+                                    <div style="margin-top: 15px; padding: 15px; background: rgba(0,0,0,0.2); border-radius: 8px; min-height: 80px;">
+                                        <label style="margin: 0;">Key Pressed:</label>
+                                        <strong id="keyboard-log-key" style="font-size: 1.2rem; color: var(--success); display: block; margin-top: 5px;">-</strong>
+                                        <span id="keyboard-log-code" style="font-size: 0.9rem; color: var(--text-muted);">-</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Camera Test -->
+                            <div class="glass-panel" style="padding: 20px;">
+                                <h4><i class="fa-solid fa-camera"></i> Camera Test</h4>
+                                <div style="margin-top: 15px; text-align: center;">
+                                    <button type="button" id="btn-test-camera" class="primary-btn"><i class="fa-solid fa-video"></i> Start Camera</button>
+                                    <div style="margin-top: 15px; background: #000; border-radius: 8px; overflow: hidden; aspect-ratio: 4/3; position: relative;">
+                                        <video id="camera-preview" autoplay playsinline style="width: 100%; height: 100%; object-fit: cover;"></video>
+                                        <div id="camera-status" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: var(--text-muted);">Camera off</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mic Test -->
+                            <div class="glass-panel" style="padding: 20px;">
+                                <h4><i class="fa-solid fa-microphone"></i> Microphone Test</h4>
+                                <div style="margin-top: 15px; text-align: center;">
+                                    <button type="button" id="btn-test-mic" class="primary-btn"><i class="fa-solid fa-microphone-lines"></i> Start Mic</button>
+                                    <div style="margin-top: 20px;">
+                                        <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                                            <label style="margin: 0;">Volume Level</label>
+                                            <strong id="mic-volume-percentage">0%</strong>
+                                        </div>
+                                        <div style="width: 100%; height: 20px; background: rgba(0,0,0,0.3); border-radius: 10px; overflow: hidden;">
+                                            <div id="mic-volume-bar" style="width: 0%; height: 100%; background: var(--success); transition: width 0.1s;"></div>
+                                        </div>
+                                        <canvas id="mic-visualizer" style="width: 100%; height: 60px; margin-top: 15px; background: rgba(0,0,0,0.2); border-radius: 8px;"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Speaker Test -->
+                            <div class="glass-panel" style="padding: 20px;">
+                                <h4><i class="fa-solid fa-volume-high"></i> Speaker Test</h4>
+                                <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+                                    <button type="button" id="btn-test-speaker-l" class="secondary-btn"><i class="fa-solid fa-volume-low"></i> Test Left Channel</button>
+                                    <button type="button" id="btn-test-speaker-r" class="secondary-btn"><i class="fa-solid fa-volume-low"></i> Test Right Channel</button>
+                                </div>
+                            </div>
+
+                            <!-- Internet Speed Test -->
+                            <div class="glass-panel" style="padding: 20px;">
+                                <h4><i class="fa-solid fa-wifi"></i> Internet Speed Test</h4>
+                                <div style="margin-top: 15px; text-align: center;">
+                                    <button type="button" id="btn-test-speed" class="primary-btn"><i class="fa-solid fa-gauge-high"></i> Run Speed Test</button>
+                                    <div style="margin-top: 20px; padding: 15px; background: rgba(0,0,0,0.2); border-radius: 8px;">
+                                        <label style="margin: 0;">Download Speed:</label>
+                                        <strong id="speed-result" style="font-size: 1.5rem; color: var(--secondary); display: block; margin-top: 5px;">-</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Alarms & Reminders Section -->
+                <section id="alarm-section" class="tool-section">
+                    <div class="tool-header">
+                        <h2>Alarms & Reminders</h2>
+                        <p>Set alarms or on-screen reminders so you don't miss anything important.</p>
+                    </div>
+                    <div class="alarm-layout" style="display: flex; gap: 20px; height: calc(100% - 80px); overflow-y: auto; flex-direction: column;">
+                        
+                        <div class="glass-panel" style="padding: 20px; flex-shrink: 0;">
+                            <h4>Set a New Reminder</h4>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                                <div class="input-group">
+                                    <label>Time</label>
+                                    <input type="time" id="alarm-time-input" required>
+                                </div>
+                                <div class="input-group">
+                                    <label>Message / Label</label>
+                                    <input type="text" id="alarm-message-input" placeholder="e.g. Meeting in 5 mins" required>
+                                </div>
+                                <div class="input-group">
+                                    <label>Sound</label>
+                                    <select id="alarm-sound-input" class="custom-select">
+                                        <option value="beep">Beep</option>
+                                        <option value="chime">Chime</option>
+                                        <option value="siren">Siren</option>
+                                    </select>
+                                </div>
+                                <div class="input-group">
+                                    <label>Volume: <span id="alarm-volume-value">100%</span></label>
+                                    <input type="range" id="alarm-volume-input" min="0" max="1" step="0.1" value="1">
+                                </div>
+                            </div>
+                            <div style="margin-top: 15px;">
+                                <button type="button" id="btn-set-alarm" class="primary-btn"><i class="fa-solid fa-plus"></i> Set Alarm</button>
+                            </div>
+                        </div>
+
+                        <div class="glass-panel" style="padding: 20px; flex: 1; display: flex; flex-direction: column;">
+                            <h4>Active Alarms</h4>
+                            <div id="active-alarms-list" style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px; flex: 1; overflow-y: auto;">
+                                <div style="color: var(--text-muted); font-style: italic;">No active alarms.</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Password & Hash Section -->
+                <section id="pass-hash-section" class="tool-section">
+                    <div class="tool-header">
+                        <h2>Password & Hash Generator</h2>
+                        <p>Generate highly secure passwords and calculate cryptographic hashes.</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; height: calc(100% - 80px); flex-direction: column; overflow-y: auto;">
+                        <div class="glass-panel" style="padding: 20px;">
+                            <h4>Password Generator</h4>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 15px;">
+                                <div class="input-group">
+                                    <label>Length: <span id="pwd-len-val">16</span></label>
+                                    <input type="range" id="pwd-length" min="8" max="64" value="16">
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 10px; justify-content: center;">
+                                    <label><input type="checkbox" id="pwd-upper" checked> Uppercase (A-Z)</label>
+                                    <label><input type="checkbox" id="pwd-lower" checked> Lowercase (a-z)</label>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 10px; justify-content: center;">
+                                    <label><input type="checkbox" id="pwd-numbers" checked> Numbers (0-9)</label>
+                                    <label><input type="checkbox" id="pwd-symbols" checked> Symbols (!@#$)</label>
+                                </div>
+                            </div>
+                            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                                <input type="text" id="pwd-output" readonly style="flex: 1; font-family: monospace; font-size: 1.2rem; text-align: center; background: rgba(0,0,0,0.3); border: 1px solid var(--glass-border); border-radius: 8px; padding: 10px; color: var(--text-main);">
+                                <button type="button" id="btn-generate-pwd" class="primary-btn"><i class="fa-solid fa-arrows-rotate"></i> Generate</button>
+                                <button type="button" id="btn-copy-pwd" class="secondary-btn"><i class="fa-regular fa-copy"></i> Copy</button>
+                            </div>
+                        </div>
+
+                        <div class="glass-panel" style="padding: 20px;">
+                            <h4>Hash Calculator (MD5, SHA-256, SHA-512)</h4>
+                            <div style="margin-top: 15px;">
+                                <div class="input-group">
+                                    <label>Input Text</label>
+                                    <textarea id="hash-input" placeholder="Enter text to hash..."></textarea>
+                                </div>
+                                <div style="display: grid; grid-template-columns: 1fr; gap: 10px; margin-top: 15px;">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <strong style="width: 80px;">MD5</strong>
+                                        <input type="text" id="hash-md5" readonly style="flex: 1; font-family: monospace; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); padding: 8px; border-radius: 4px; color: var(--text-muted);">
+                                    </div>
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <strong style="width: 80px;">SHA-256</strong>
+                                        <input type="text" id="hash-sha256" readonly style="flex: 1; font-family: monospace; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); padding: 8px; border-radius: 4px; color: var(--text-muted);">
+                                    </div>
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <strong style="width: 80px;">SHA-512</strong>
+                                        <input type="text" id="hash-sha512" readonly style="flex: 1; font-family: monospace; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); padding: 8px; border-radius: 4px; color: var(--text-muted);">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Regex Tester Section -->
+                <section id="regex-section" class="tool-section">
+                    <div class="tool-header">
+                        <h2>Regex (Regular Expression) Tester</h2>
+                        <p>Write and test regular expressions in real-time.</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; height: calc(100% - 80px); flex-direction: column;">
+                        <div class="glass-panel" style="padding: 20px;">
+                            <div class="input-group">
+                                <label>Regular Expression</label>
+                                <div style="display: flex; align-items: center; background: var(--bg-input); border: 1px solid var(--glass-border); border-radius: 8px; padding: 0 10px;">
+                                    <span style="color: var(--primary); font-size: 1.2rem; font-weight: bold;">/</span>
+                                    <input type="text" id="regex-pattern" placeholder="e.g. ^[a-z0-9_-]{3,16}$" style="border: none; background: transparent; flex: 1; font-family: monospace; font-size: 1.1rem; box-shadow: none;">
+                                    <span style="color: var(--primary); font-size: 1.2rem; font-weight: bold;">/</span>
+                                    <input type="text" id="regex-flags" value="gm" style="border: none; background: transparent; width: 40px; font-family: monospace; color: var(--secondary); box-shadow: none;" placeholder="flags">
+                                </div>
+                            </div>
+                            <div class="input-group" style="margin-top: 15px;">
+                                <label>Test String</label>
+                                <textarea id="regex-test-string" placeholder="Enter text to test your regex against..." style="height: 120px; font-family: monospace;"></textarea>
+                            </div>
+                        </div>
+                        <div class="glass-panel" style="padding: 20px; flex: 1; display: flex; flex-direction: column;">
+                            <h4>Match Results</h4>
+                            <div id="regex-results" style="margin-top: 15px; padding: 15px; background: rgba(0,0,0,0.2); border-radius: 8px; flex: 1; overflow-y: auto; font-family: monospace; color: var(--text-main); white-space: pre-wrap; word-break: break-all;">
+                                <span style="color: var(--text-muted);">Results will appear here...</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Diff Checker Section -->
+                <section id="diff-section" class="tool-section">
+                    <div class="tool-header" style="margin-bottom: 1.5rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                            <div>
+                                <h2>Text & Code Diff Checker</h2>
+                                <p>Instantly compare two blocks of text or code line-by-line.</p>
+                            </div>
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <label style="margin: 0; font-size: 0.9rem;">Mode:</label>
+                                <select id="diff-mode" class="custom-select" style="width: auto; padding: 0.4rem 0.8rem; height: auto;">
+                                    <option value="lines" selected>Line-by-Line</option>
+                                    <option value="words">Inline (Words)</option>
+                                </select>
+                                <button type="button" id="btn-clear-diff" class="danger-btn" style="padding: 0.4rem 0.8rem;"><i class="fa-solid fa-trash-can"></i> Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; gap: 20px; height: calc(100% - 70px); flex-direction: column;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; flex: 1; min-height: 250px;">
+                            <div class="glass-panel" style="padding: 0; display: flex; flex-direction: column; overflow: hidden;">
+                                <div style="background: rgba(0,0,0,0.3); padding: 10px 15px; border-bottom: 1px solid var(--glass-border); font-weight: 600; color: var(--text-muted); font-size: 0.9rem;"><i class="fa-solid fa-file-lines"></i> Original Text</div>
+                                <textarea id="diff-original" style="flex: 1; border: none; background: transparent; border-radius: 0; padding: 15px; font-family: monospace; resize: none; box-shadow: none; outline: none; font-size: 0.95rem; line-height: 1.5;" placeholder="Paste original text here..."></textarea>
+                            </div>
+                            <div class="glass-panel" style="padding: 0; display: flex; flex-direction: column; overflow: hidden;">
+                                <div style="background: rgba(0,0,0,0.3); padding: 10px 15px; border-bottom: 1px solid var(--glass-border); font-weight: 600; color: var(--text-muted); font-size: 0.9rem;"><i class="fa-solid fa-file-pen"></i> Modified Text</div>
+                                <textarea id="diff-modified" style="flex: 1; border: none; background: transparent; border-radius: 0; padding: 15px; font-family: monospace; resize: none; box-shadow: none; outline: none; font-size: 0.95rem; line-height: 1.5;" placeholder="Paste modified text here..."></textarea>
+                            </div>
+                        </div>
+
+                        <div class="glass-panel" style="padding: 0; flex: 1; display: flex; flex-direction: column; overflow: hidden; min-height: 250px;">
+                            <div style="background: rgba(0,0,0,0.3); padding: 10px 15px; border-bottom: 1px solid var(--glass-border); font-weight: 600; font-size: 0.9rem; color: var(--text-main); display: flex; justify-content: space-between;">
+                                <span><i class="fa-solid fa-code-compare"></i> Difference Result</span>
+                                <span style="font-size: 0.8rem; font-weight: normal; color: var(--text-muted);"><span style="color: var(--danger);">--- Removed</span> &nbsp; <span style="color: var(--success);">+++ Added</span></span>
+                            </div>
+                            <div id="diff-results" style="padding: 10px 0; flex: 1; overflow-y: auto; font-family: monospace; white-space: pre-wrap; word-break: break-all; background: #0b0b14; font-size: 0.95rem; line-height: 1.5;">
+                                <div style="color: var(--text-muted); text-align: center; margin-top: 2rem;">Results will appear here automatically as you type...</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- HTML Compiler Section -->
+                <section id="html-section" class="tool-section">
+                    <div class="tool-header">
+                        <h2>HTML Compiler</h2>
+                        <p>Write HTML/CSS/JS and view the output instantly.</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; height: calc(100% - 80px); flex-direction: row;">
+                        <div class="glass-panel" style="padding: 20px; display: flex; flex-direction: column; flex: 1; min-height: 200px; max-width: 50%;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                                <label style="margin: 0;"><i class="fa-solid fa-code"></i> Code Input</label>
+                                <button type="button" id="btn-run-html" class="primary-btn"><i class="fa-solid fa-play"></i> Run</button>
+                            </div>
+                            <textarea id="html-input" placeholder="Write your HTML/CSS/JS code here...&#10;e.g.&#10;<h1>Hello World</h1>&#10;<style>h1 { color: #00f0ff; }</style>" style="flex: 1; font-family: 'Courier New', Courier, monospace; resize: none; background: rgba(0,0,0,0.4); border: 1px solid var(--glass-border); border-radius: 8px; padding: 15px; color: var(--text-main); outline: none; font-size: 1rem; line-height: 1.5;"></textarea>
+                        </div>
+                        <div class="glass-panel" style="padding: 20px; display: flex; flex-direction: column; flex: 1; min-height: 200px;">
+                            <label style="margin-bottom: 10px;"><i class="fa-solid fa-desktop"></i> Live Preview</label>
+                            <div style="flex: 1; background: #fff; border-radius: 8px; overflow: hidden; border: 1px solid var(--glass-border); box-shadow: inset 0 0 10px rgba(0,0,0,0.1);">
+                                <iframe id="html-output" style="width: 100%; height: 100%; border: none; background: #fff;"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <footer style="text-align: center; padding: 15px 0; margin-top: auto; color: var(--text-muted); font-size: 0.9rem; letter-spacing: 0.5px;">
+                This site developed by <strong>akhilkumar</strong>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Three.js & Vanta.js for 3D Background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    
+    <!-- CryptoJS for AES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    
+    <!-- Cronstrue -->
+    <script src="https://unpkg.com/cronstrue@2.47.0/dist/cronstrue.min.js"></script>
+    
+    <!-- jsdiff -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsdiff/5.1.0/diff.min.js"></script>
+
+    <!-- Custom Application Logic -->
+    <script src="js/three-background.js"></script>
+    <script src="js/aes-tool.js"></script>
+    <script src="js/image-compressor.js"></script>
+    <script src="js/cron-tool.js"></script>
+    <script src="js/pdf-tool.js"></script>
+    <script src="js/datetime-tool.js"></script>
+    <script src="js/hardware-tool.js"></script>
+    <script src="js/alarm-tool.js"></script>
+    <script src="js/pass-hash-tool.js"></script>
+    <script src="js/regex-tool.js"></script>
+    <script src="js/diff-tool.js"></script>
+    <script src="js/html-tool.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!-- 3D Interactive Features -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="js/3d-features.js"></script>
+</body>
+</html>
